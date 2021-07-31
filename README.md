@@ -16,7 +16,7 @@ git clone https://github.com/OutlierDetection-OutSpot/Code.git
 #### Get data from github and unzip 
 
 ```
-git lfs clone https://github.com/OutlierDetection-OutSpot/Dataset.git && cd Dataset && unzip data.zip  && cd  ../
+cd Code && git clone https://github.com/OutlierDetection-OutSpot/Dataset.git && cd Dataset && unzip data.zip  && cd  ../
 ```
 
 #### Create a virtual environment for Python3.8.10
